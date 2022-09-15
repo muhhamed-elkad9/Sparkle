@@ -1,0 +1,138 @@
+/* Start Header */
+
+/* mobile */
+@media (max-width: 540px) {
+  header .icon {
+    left: 47.75% !important;
+  }
+  .active-main {
+    left: 30% !important;
+  }
+}
+
+/* table */
+@media (min-width: 541px) and (max-width: 992px) {
+  header .icon {
+    left: 49% !important;
+    bottom: 3% !important;
+  }
+  .active-main {
+    left: 60% !important;
+  }
+}
+/* End Header */
+
+/* Start Landing */
+
+/* Mobile */
+@media (max-width: 540px) {
+  .landing p,
+  .text h5 {
+    padding: 0px 20px;
+  }
+}
+
+/* table */
+@media (min-width: 541px) and (max-width: 992px) {
+  .landing p,
+  .text h5 {
+    padding: 0px 50px;
+  }
+}
+/* End Landing */
+
+/* Start services */
+
+/* Mobile */
+@media (max-width: 540px) {
+  .services .box {
+    margin-top: 20px;
+  }
+}
+
+/* table */
+@media (min-width: 541px) and (max-width: 992px) {
+  .services .box {
+    margin-top: 20px;
+  }
+}
+
+/* End services */
+
+
+/* Start PORTFOLIO */
+
+@media (max-width: 540px) {
+  .portfolio .content img {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .portfolio .content .flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .portfolio .content .link {
+    margin: 15px 30px !important;
+  }
+}
+/* End PORTFOLIO */
+
+/* Start Video */
+
+@media (max-width: 540px) {
+  .video .container .button a {
+    letter-spacing: 0px !important;
+  }
+}
+
+/* End Video */
+
+/* Start team */
+
+@media (max-width: 540px) {
+  .team .box .image img {
+    width: auto;
+    height: auto;
+  }
+  .team .quote-right {
+    margin: 50px 0px 150px 0px;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 992px) {
+  .team .quote-right {
+    margin: 50px 0px 150px;
+  }
+}
+
+/* End team */
+
+
+/* Start Footer */
+
+@media (max-width: 540px) {
+  footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 992px) {
+  footer {
+    text-align: center;
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 992px) {
+  footer .container .contact .social ul {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+/* End Footer */
